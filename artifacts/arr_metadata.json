@@ -1,0 +1,65 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "arr",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice2.sol": "arr"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice2.sol": {
+			"keccak256": "0x55cb5ed20ea22081add8b4c5d5578b6239141ad5aa515faeb156481503873674",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://49c3be95aa854d0edb4aa716234878e21cf80b95ddbc3686d93815e1ea0be539",
+				"dweb:/ipfs/QmTovPbW59rHWkqqnQqkMtEeMZbV2nc7JmYqu7iQnoRd2q"
+			]
+		}
+	},
+	"version": 1
+}

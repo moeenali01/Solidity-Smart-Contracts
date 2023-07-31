@@ -1,0 +1,95 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_roll",
+						"type": "uint256"
+					}
+				],
+				"name": "data",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "get",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "roll",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct neww.student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice.sol": "neww"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice.sol": {
+			"keccak256": "0x70aad36b094c2e06a492b9ca3fdb6863d770ec7b9654b576bd7e834581809877",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://98440daf9776ef1656a3a4dde10e118004c41acbfb2e9e86a77f04cd5bd8d838",
+				"dweb:/ipfs/QmQH9qyiiX51eHxgnvkUK1JHVknpBcPhA4vzAvK6NzHHTY"
+			]
+		}
+	},
+	"version": 1
+}

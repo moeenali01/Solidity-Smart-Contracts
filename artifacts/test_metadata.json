@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getBookId",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "setBook",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"six.sol": "test"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"six.sol": {
+			"keccak256": "0xb2b3215c5d1084767ea9cc5606bf13e28d7078bf648646dd3026b968d4a56830",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://cc0731cf9fc1e1e4d96e9c8febe87d509886b2fbdcac3fb33de4faa939ce3ee5",
+				"dweb:/ipfs/QmXnezbskuDzkMYhPhfQJGaGk5NRUjncvrjknPL8uFb1Ph"
+			]
+		}
+	},
+	"version": 1
+}

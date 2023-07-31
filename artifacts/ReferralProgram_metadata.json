@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "referrer",
+						"type": "address"
+					}
+				],
+				"name": "becomeReferral",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getReferrals",
+				"outputs": [
+					{
+						"internalType": "address[]",
+						"name": "",
+						"type": "address[]"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"twitter practice.sol": "ReferralProgram"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"twitter practice.sol": {
+			"keccak256": "0x9f28368e5ca55df7c55d8568dc9675120ae306b4cbd376a1976bfdf6c4e0b331",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://b7609341261fc530c4a38e7df99eb774c3e2d0d3a5f335698bc29c9411b97ba9",
+				"dweb:/ipfs/QmVkdswnxBAjdAURLP3nJV3tZBDTyw9Q6HQotjP5S4QDdo"
+			]
+		}
+	},
+	"version": 1
+}

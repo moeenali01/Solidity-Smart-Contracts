@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					}
+				],
+				"name": "getdata",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "subject",
+								"type": "string"
+							},
+							{
+								"internalType": "uint256",
+								"name": "semester",
+								"type": "uint256"
+							},
+							{
+								"internalType": "uint256",
+								"name": "credithours",
+								"type": "uint256"
+							}
+						],
+						"internalType": "struct structinside.student",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "roll",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "uni",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dpt",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gpa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "subject",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "semester",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "credithour",
+						"type": "uint256"
+					}
+				],
+				"name": "setdata",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "sndata",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "uni",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "dpt",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "gpa",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "id",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"practice.sol": "structinside"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"practice.sol": {
+			"keccak256": "0xa481113f05783e7f1785d86792fd26aa116fd6c6fa72741cda2130553da6055a",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e156a1547d7def19f5dab5a67ebf428ce120a7d18bc8aca5a0b1aa6db1e2afe3",
+				"dweb:/ipfs/Qmc4XYqEWTGcwcEDJWWzvg4dbmfRGtpPrgG1Xe2wkZM43J"
+			]
+		}
+	},
+	"version": 1
+}

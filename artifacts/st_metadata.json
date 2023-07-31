@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "data",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "tf",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "s1",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "class",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "rollno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "tf",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_id",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_name",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_age",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_class",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_rollno",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "_tf",
+						"type": "bool"
+					}
+				],
+				"name": "studentdata",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"first.sol": "st"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"first.sol": {
+			"keccak256": "0x90aa68cd9aa37e0be587d290c0acb78afc1740716aa3e7ee1e8aa2c861024006",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://26cd5895b0e26eef0c7b3c20c1d23a7f7502f9f46eb5903744c0dd0e80a431b3",
+				"dweb:/ipfs/Qmau4F26FMur5JcjGyCFeB7ZrkFTYL9WXGwc1DGugFoSXv"
+			]
+		}
+	},
+	"version": 1
+}
